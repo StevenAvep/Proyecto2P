@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNombreEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Evento"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ubicación del Evento"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha del Evento (dd/mm/aaaa)"
+        android:inputType="date"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etCantidadPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad de Personas"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGuardarEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Evento"/>
+</LinearLayout>

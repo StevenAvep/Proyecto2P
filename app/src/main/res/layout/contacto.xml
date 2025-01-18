@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etDireccionResidencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección de la Residencia"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etNombreContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Contacto"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etNumeroContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Contacto"
+        android:inputType="phone"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etPlacaVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Placa del Vehículo"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGuardarContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Contacto"/>
+</LinearLayout>
